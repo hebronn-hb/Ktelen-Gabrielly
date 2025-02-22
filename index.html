@@ -1,0 +1,126 @@
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manicure Perfeita - Agende Seu Horário!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  </noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Widget do selo do Calendly - início -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">Ketlen Gabrielly</a>
+      </div>
+      <ul>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#agenda">Redes social </a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Unhas Lindas e Impecáveis</h1>
+      <p>Transforme suas mãos com nossos serviços de manicure e pedicure. Agende agora!</p>
+      <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kekehebronn/30min'});return false;" class="cta-button">Agendar Horário</a>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="servicos-container">
+      <div class="servico">
+        <i class="fas fa-cut"></i>
+        <h3>Manicure Simples</h3>
+        <p>Corte, lixamento e esmaltação.</p>
+      </div>
+      <div class="servico">
+        <i class="fas fa-paint-brush"></i>
+        <h3>Manicure Decorada</h3>
+        <p>aplicações artísticas.</p>
+      </div>
+      <div class="servico">
+        <i class="fas fa-spa"></i>
+        <h3>Pedicure Completo</h3>
+        <p>Tratamento completo para seus pés.</p>
+      </div>
+      <div class="servico">
+        <i class="fas fa-gem"></i>
+        <h3>Escova e hindratação</h3>
+        <p>Escova normal, escova com cachos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Unhas</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/WhatsApp Image 2025-02-22 at 10.24.52.jpeg" alt="Unhas 1"></div>
+        <div class="swiper-slide"><img src="/WhatsApp Image 2025-02-22 at 10.24.51 (2).jpeg" alt="Unhas 2"></div>
+        <div class="swiper-slide"><img src="/WhatsApp Image 2025-02-22 at 10.24.52 (1).jpeg" alt="Unhas 3"></div>
+        <div class="swiper-slide"><img src="/WhatsApp Image 2025-02-22 at 10.24.52 (3).jpeg" alt="Unhas 4"></div>
+        <div class="swiper-slide"><img src="/WhatsApp Image 2025-02-22 at 10.24.52 (2).jpeg" alt="Unhas 5"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <section id="agenda">
+    <h2>Redes social </h2>
+    <div class="social-links">
+      <a href="http://wa.me/5533998158605" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/ketlen_gabrielly/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/ketlen.gabrielly?locale=pt_BR" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+    <!-- Widget do selo do Calendly - início -->
+    <!-- Widget do selo do Calendly - fim -->
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <div class="contato-info">
+      <p><i class="fas fa-map-marker-alt"></i> Endereço: Rua Francico Paulo Bonadiman, Santa Barbara, 37</p>
+      <p><i class="fas fa-phone"></i> Telefone: (33) 99815-8605</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Ketlen Gabrielly. Todos os direitos reservados.</p>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <script type="text/javascript">
+    window.onload = function() {
+      Calendly.initBadgeWidget({
+        url: 'https://calendly.com/kekehebronn/30min',
+        text: 'Agende um horário comigo',
+        color: '#0069ff',
+        textColor: '#ffffff'
+      });
+    }
+  </script>
+</body>
+
+</html>
